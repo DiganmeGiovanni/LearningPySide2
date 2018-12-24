@@ -6,7 +6,8 @@ Window {
     visible: true
     width: 600
     height: 600
-    color: "#00000000"
+    color: "#35000000"
+    flags: Qt.FramelessWindowHint
 
     Timer {
            interval: 0; running: true; repeat: false
